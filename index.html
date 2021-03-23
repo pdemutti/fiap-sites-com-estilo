@@ -15,47 +15,41 @@
 </head>
 
 <body>
-	<article id="topo">
-		<header id="header-site">
-			<div class="info">
-				<div class="avatar">
+	<article id="c-topo">
+		<header id="c-topo__header-site">
+			<div class="c-topo__header-site__info">
+				<div class="c-topo__header-site__avatar">
 					<i class="fas fa-user-astronaut"></i>
 				</div>
-				<div class="avatar-data">
+				<div class="c-topo__header-site__avatar-data">
 					<h1 id="user">Paulo Demutti, </h1>
 					<span class="age">35 anos</span>
 					<span class="from">Paulistano</span>
 				</div>
 			</div>
 		</header>
-		<nav>
-			<ul class="">
-				<li>
-					<a href="" class="menu-header">
+		<nav class="c-topo__website-nav">
+			<ul class="c-topo__website-nav__list">
+				<li class="c-topo__website-nav__list-item">
+					<a href="#professional" class="c-topo__website-nav__item-link">
 						<i class="fas fa-user-tie"></i>
 						Experiência Profissional
 					</a>
 				</li>
-				<li>
-					<a href="" class="menu-header">
+				<li class="c-topo__website-nav__list-item">
+					<a href="#hobbies" class="c-topo__website-nav__item-link">
 						<i class="fas fa-headphones-alt"></i>
 						Hobbies
 					</a>
 				</li>
-				<li>
-					<a href="" class="menu-header">
+				<li class="c-topo__website-nav__list-item">
+					<a href="#travel" class="c-topo__website-nav__item-link">
 						<i class="fas fa-globe-europe"></i>
 						Viagens
 					</a>
 				</li>
-				<li>
-					<a href="" class="menu-header">
-						<i class="far fa-futbol"></i>
-						Time do Coração
-					</a>
-				</li>
-				<li>
-					<a href="" class="menu-header">
+				<li class="c-topo__website-nav__list-item">
+					<a href="" class="c-topo__website-nav__item-link">
 						<i class="fas fa-address-book"></i>
 						Contato
 					</a>
@@ -63,27 +57,27 @@
 			</ul>
 		</nav>
 	</article>
-	<div class="main">
-		<div class="box">
-			<div class="box-header">
+	<div id="c-main">
+		<section class="box" id="professional">
+			<div class="box__box-header">
 				<h2>Experiência Profissional </h2>
 
-				<img src="./images/developer.jpg	" alt="Imagem representativa - Front end">
-				<p>
+				<img src="./images/developer.jpg	" alt="Imagem representativa - Front end" class="box__box-header__image">
+				<p class="box__jobs-widget__text">
 					Trabalho como desenvolvedor front-end desde 2008, sempre busco aprimorar meus
 					conhecimentos.
 				</p>
 			</div>
-			<div class="jobs-widget">
-				<p class="text">
+			<div class="box__jobs-widget">
+				<p class="box__jobs-widget__text">
 					Trabalho como desenvolvedor front-end desde 2008, sempre buscando aprimorar meus
 					conhecimentos. Já Estudei ADS na FIAP a alguns anos atrás e hoje busco um conhecimento mais voltado à minha area de atuação.
 				</p>
-				<p class="text">
+				<p class="box__jobs-widget__text">
 					Ao longo dos anos trabalhei em diversos seguimentos, em grandes portais, e-commerces, bancos e financeiras.
 				</p>
 				<h4>Empresas em que atuei como front-end developer</h4>
-				<ol class="jobs-list">
+				<ol class="box__jobs-widget__jobs-list">
 					<li>
 						<a href="http://uol.com.br" target="_blank">
 							<span>UOLINC</span>
@@ -120,22 +114,22 @@
 						</a>
 					</li>
 				</ol>
-				<p class="text">
+				<p class="box__jobs-widget__text">
 					<span class="highligth">Algumas especialidades:</span> VanillaJs, Bootstrap, <span class="deprecated">jQuery</span>, AngularJs, Angular, Backbone, ReactJs, Vuejs,
 					Emberjs, DustJs, Handlebars, NodeJs, Express, Gulp, Web pack, Grunt
 				</p>
 			</div>
 
 
-		</div>
-		<div class="box">
+		</section>
+		<section id="hobbies" class="box">
 			<h2>Hobby</h2>
-			<p class="text">
+			<p class="hobbies__hobby__text">
 				Meu principal hobby certamente é a música, faço isso a mais de 20 anos.
 				Toco baixo em uma banda de hardcore de São Paulo, também atuo como produtor musical!
 			</p>
 			<h4>Abaixo alguns trabalhos que participei</h4>
-			<ul class="hobby-list">
+			<ul class="hobbies__hobby-list">
 				<li>
 					<iframe src="https://open.spotify.com/embed/track/5jAH37S3w3jpNLnjCN3Yiw" width="260" height="330"
 						frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -150,13 +144,22 @@
 						frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 				</li>
 			</ul>
-		</div>
-		<div class="box">
+		</section>
+		<section id="travel" class="box">
 			<h2>Viagens</h2>
-			<p>
-				Ja conheci diversos paises, geralmente em turnes com a minha banda
-			</p>
-			<ul class="flags">
+			<div class="travel__with-img">
+				<p class="travel__title-text">
+					A viagem inesquecível
+				</p>
+				<p class="travel__with-img__text">
+					Ao lado foto com hashiko, em frente a estação de trem de Shibuya, em Tókio! 
+				</p>
+				<div class="picture">
+					<img src="./images/eu-no-japao.png" alt="Paulo Demutti no japão">
+				</div>
+			</div>
+			<h4>Abaixo alguns países que conheci</h4>
+			<ul class="travel__flags">
 				<li>&#x1F1E8;&#x1F1F1;</li>
 				<li>&#x1F1E8;&#x1F1FF;</li>
 				<li>&#x1F1E9;&#x1F1EA;</li>
@@ -170,10 +173,6 @@
 				<li>&#x1F1EB;&#x1F1F7; </li>
 				<li>&#x1F1F9;&#x1F1F7;</li>
 			</ul>
-
-		</div>
-		<div>
-			<a class="go-top" href="#user">Voltar ao topo</a>
 		</div>
 	</div>
 
