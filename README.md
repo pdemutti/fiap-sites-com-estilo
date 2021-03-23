@@ -7,12 +7,6 @@
 ## Experiência Profissional
 
 
-Trabalho como desenvolvedor front-end desde 2008, sempre busco aprimorar
-
-meus conhecimentos.
-
-  
-
 Trabalho como desenvolvedor front-end desde 2008, sempre buscando
 
 aprimorar meus conhecimentos. Já Estudei ADS na FIAP a alguns anos atrás
