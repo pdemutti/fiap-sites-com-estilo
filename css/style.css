@@ -135,7 +135,9 @@ div a.go-top {
 .box-header img {
     margin: 10px 0;
 }
-
+.box__box-header__image {
+ width: 100%;
+}
 .box-header p {
     position: absolute;
     bottom: 0;
@@ -150,7 +152,7 @@ div a.go-top {
     font-size: 20px;
 }
 
-img {
+.travel__with-img__picture img {
     width: 100%;
 }
 
@@ -277,7 +279,7 @@ h4 {
     background-color: #333;
 }
 
-.picture {
+.travel__with-img__picture {
     position: absolute;
     right: 0px;
     bottom: 0px;
